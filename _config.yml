@@ -24,16 +24,15 @@
 
 # Site settings
 title: vraja-cloud-ai
-author: Vraja Kishore
-email: vrajakishore@github.com
+author: Vraja Kishore M
+email: vrajakishore2@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Vraja Kishore — Senior AI Solutions Engineer building production-grade AI agents,
-  cloud infrastructure, and data systems at scale.
+  Vraja Kishore M — Senior AI Solutions Engineer at Microsoft. AI Solution Design,
+  Data in Motion, Microsoft Cloud Solutions, Customer Success.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://vrajakishore.github.io" # the base hostname & protocol for your site
-twitter_username: vraja_kishore
 github_username: vrajakishore
-linkedin_url: "https://www.linkedin.com/in/vrajakishore"
+linkedin_url: "https://www.linkedin.com/in/mvrajakishore"
 medium_url: "https://medium.com/@vrajakishore"
 css: "indigo"
 scroll-cursor: "#3F51B5"
