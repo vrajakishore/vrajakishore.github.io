@@ -728,13 +728,40 @@ main {
     object-fit: contain;
 }
 
-.timeline-logo.fallback {
-    background: var(--gradient-1);
+.timeline-logo.ms {
+    background: linear-gradient(135deg, #0078d4 0%, #50e6ff 100%);
     color: white;
     font-weight: 700;
-    font-size: 0.85rem;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: -0.02em;
+    font-size: 0.7rem;
+}
+
+.timeline-logo.confluent {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 0.65rem;
+    padding: 6px;
+}
+
+.timeline-logo.oracle {
+    background: linear-gradient(135deg, #F80000 0%, #ff6666 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+.timeline-logo.tcs {
+    background: linear-gradient(135deg, #E31837 0%, #ff5555 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 0.65rem;
+}
+
+.timeline-logo.capgemini {
+    background: linear-gradient(135deg, #FF6600 0%, #ffaa44 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 0.7rem;
 }
 
 .timeline-meta {
