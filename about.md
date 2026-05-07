@@ -4,8 +4,57 @@ title: About
 permalink: /about/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel purus sagittis, eleifend ante quis, tempus lectus. Vivamus maximus nibh lectus, sed gravida sapien imperdiet in. Curabitur non purus rutrum, iaculis mauris ac, placerat turpis. Donec vel semper enim, ut ultrices sem. Fusce rutrum, justo id porta malesuada, purus erat gravida metus, sit amet viverra turpis lacus nec mi. Aliquam et mi vel ipsum mollis aliquam eu eget augue. Morbi congue eros id nisl sagittis accumsan. Nam nec odio dolor.
+# About Me
 
-Integer accumsan, turpis a egestas malesuada, lorem ex blandit nulla, in condimentum lectus quam et dolor. Ut dapibus, sem et efficitur efficitur, urna turpis dictum tellus, non lacinia leo sem sit amet leo. Phasellus tortor dui, consectetur sed felis in, dapibus tincidunt nisi. Nam faucibus, dolor nec ultricies euismod, risus magna condimentum elit, et dictum lorem nunc eu orci. Mauris efficitur sollicitudin mi, nec condimentum nunc euismod vel. Integer ac dictum elit. Vivamus in dui ac arcu laoreet dictum.
+## Senior AI Solutions Engineer
 
-Curabitur congue aliquet nulla, ac hendrerit leo dictum in. Cras at tristique quam. Praesent euismod nec dui eu vulputate. Quisque sit amet gravida elit. Suspendisse euismod urna ut efficitur facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla, ipsum tempor ullamcorper pellentesque, purus tellus convallis ex, quis viverra arcu metus at est. Aliquam erat volutpat. Suspendisse dictum, nunc in dictum ultrices, sapien arcu venenatis tortor, eget dictum nulla sem quis nibh. Nunc id malesuada odio. Sed in dolor accumsan, vehicula neque ut, pretium est. Cras feugiat nunc et neque sagittis, in aliquam velit mattis. Nulla in massa mi. In eget efficitur neque, sit amet porttitor diam. Integer sed posuere sapien.
+I build **production-grade AI systems at scale**. My expertise spans enterprise AI agents, cloud infrastructure, and data platforms that power real-world applications.
+
+### Background
+
+**15+ years** in database engineering (Oracle), high availability & disaster recovery, real-time streaming architectures, and multi-cloud infrastructure. Today, I focus on:
+
+- 🤖 **Agentic AI** — Multi-agent workflows, tool orchestration, reasoning patterns
+- 🔍 **Retrieval Systems** — RAG, semantic search, knowledge indexing
+- ☁️ **Cloud Architecture** — Azure, AWS, OCI; enterprise integration patterns
+- 📊 **Data Integration** — Event streaming, CDC, real-time pipelines
+
+### Philosophy
+
+> Systems should be **observable, secure, testable, and operationally sound**. I prioritize hands-on implementation over hype—choosing practical patterns, validating early, and building with ops in mind from day one.
+
+### What I Focus On
+
+**AI & Agents (2024+)**
+- Multi-agent orchestration and workflow patterns
+- Retrieval-augmented generation (RAG) implementation
+- Azure Foundry and LLM integration
+- Continuous evaluation and optimization
+
+**Cloud & Infrastructure**
+- Azure (primary), AWS, OCI
+- Kubernetes (AKS) and container orchestration
+- Infrastructure as Code (Bicep, Terraform)
+- Networking, security, and HA/DR patterns
+
+**Data & Databases**
+- Oracle Database administration and tuning
+- Event streaming (Kafka) and CDC patterns
+- Real-time data integration
+- Vector databases and semantic search
+
+**Developer Tools**
+- Languages: Python, SQL/PL-SQL, Bash
+- GitHub, VS Code, automation
+- Infrastructure and deployment tooling
+
+### Connect
+
+- **GitHub**: [github.com/vrajakishore](https://github.com/vrajakishore)
+- **LinkedIn**: [linkedin.com/in/vrajakishore](https://www.linkedin.com/in/vrajakishore)
+- **Medium**: [medium.com/@vrajakishore](https://medium.com/@vrajakishore)
+- **Email**: vrajakishore@github.com
+
+---
+
+**Always building. Always learning.** ⚡

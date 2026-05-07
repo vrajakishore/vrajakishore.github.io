@@ -23,18 +23,21 @@
 
 
 # Site settings
-title: material
-email: vrajakishore2@gmail.com
+title: vraja-cloud-ai
+author: Vraja Kishore
+email: vrajakishore@github.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hello, I'm Naveen, a freelance front-end developer
-  and UI designer. Check out my projects on GitHub
+  Vraja Kishore — Senior AI Solutions Engineer building production-grade AI agents,
+  cloud infrastructure, and data systems at scale.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://vrajakishore.github.io" # the base hostname & protocol for your site
+url: "https://vrajakishore.github.io" # the base hostname & protocol for your site
 twitter_username: vraja_kishore
-github_username:  vrajakishore
-css: "cyan"
-scroll-cursor: "#00BCD4"
-scroll-rail: "#0097A7"
+github_username: vrajakishore
+linkedin_url: "https://www.linkedin.com/in/vrajakishore"
+medium_url: "https://medium.com/@vrajakishore"
+css: "indigo"
+scroll-cursor: "#3F51B5"
+scroll-rail: "#283593"
 
 # Build settings
 markdown: kramdown

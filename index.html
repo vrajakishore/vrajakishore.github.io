@@ -1,51 +1,222 @@
 ---
 layout: default
 ---
-<div>
-
-<div id="skrollr-body">
-<div id="non-skrollr">
-   
-    <div class="container-fluid">
-        <div class="mast">
-            <h1>material</h1>
-            <h4>a <b>solid</b> way to make your presence felt</h4> free &amp; <b>open-source</b> way to a one-click blog/website on <b>GitHub</b> with Jekyll and MaterializeCSS
-            <br>
-            <h6>based on google&trade;'s <b>material design</b> specifications</h6>
-            <h4><b>work-in-progress</b></h4>
-            <a target="_blank" href="http://github.com/naveenshaji/material" class="{{ site.css }} darken-2 white-text text-darken-3 waves-effect waves-light btn"><i class="mdi-action-get-app"></i> View on github</a><br>
-            <i class="mdi-navigation-arrow-drop-down" style="font-size: 200px;"></i>
+<div class="hero-section">
+    <div class="container-fluid hero-content">
+        <div class="hero-text">
+            <h1>Vraja Kishore</h1>
+            <h2>Enterprise AI Solutions Engineer</h2>
+            <p>Building production-grade AI agents, cloud infrastructure, and data systems at scale</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn indigo white-text waves-effect waves-light">Learn More</a>
+                <a href="{{ site.github_username }}" target="_blank" class="btn-outline indigo-text waves-effect waves-light">View on GitHub</a>
+            </div>
         </div>
     </div>
+</div>
 
+<div class="container">
+    <!-- About Section -->
+    <section id="about" class="section scrollspy">
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <h2 class="header indigo-text">About Me</h2>
+                <div class="divider"></div>
+                <p>I build <strong>production-grade AI systems at scale</strong>. My expertise spans enterprise AI agents, cloud infrastructure, and data platforms that power real-world applications.</p>
+                <p><strong>Background</strong>: 15+ years in database engineering (Oracle), HA/DR, streaming architectures, and multi-cloud infrastructure. Today, I focus on agentic AI, RAG systems, and enterprise integration patterns.</p>
+                <p class="quote"><em>"The best architecture is the one your team understands and can operate."</em></p>
+            </div>
+        </div>
+    </section>
 
-
-    <div class="container-fluid card {{ site.css }} z-depth-2 waves-effect waves-light">
-        <div class="cover z-depth-1" style="background-image: url('{{site.baseurl}}/img/1.jpg');">
-            <div class="filter {{site.css}}" style="opacity: 0.7;">
-                <div class="cover-text {{ site.css }}-text text-darken-4">
-                    <span style="font-size: 50px;">< about-material /></span>
+    <!-- Expertise Section -->
+    <section id="expertise" class="section scrollspy grey lighten-5">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="header center indigo-text">Core Expertise</h2>
+                <div class="divider"></div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card white">
+                    <div class="card-content">
+                        <span class="card-title indigo-text">🤖 AI & Agents</span>
+                        <ul>
+                            <li>Agentic AI workflows</li>
+                            <li>RAG & retrieval systems</li>
+                            <li>Azure Foundry</li>
+                            <li>LLM integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col s12 m4">
+                <div class="card white">
+                    <div class="card-content">
+                        <span class="card-title indigo-text">☁️ Cloud & Infra</span>
+                        <ul>
+                            <li>Azure, AWS, OCI</li>
+                            <li>Kubernetes & AKS</li>
+                            <li>Infrastructure as Code</li>
+                            <li>Networking & Security</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col s12 m4">
+                <div class="card white">
+                    <div class="card-content">
+                        <span class="card-title indigo-text">📊 Data & Integration</span>
+                        <ul>
+                            <li>Oracle databases</li>
+                            <li>Event streaming</li>
+                            <li>CDC patterns</li>
+                            <li>Search & indexing</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card-content white-text">
-            <div class="card-title">
-                <h4>about-material</h4>
+    </section>
+
+    <!-- Featured Work -->
+    <section id="work" class="section scrollspy">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="header center indigo-text">Featured Projects</h2>
+                <div class="divider"></div>
             </div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel purus sagittis, eleifend ante quis, tempus lectus. Vivamus maximus nibh lectus, sed gravida sapien imperdiet in.
-            <br>
-            <br> Curabitur non purus rutrum, iaculis mauris ac, placerat turpis. Donec vel semper enim, ut ultrices sem. Fusce rutrum, justo id porta malesuada, purus erat gravida metus, sit amet viverra turpis lacus nec mi. Aliquam et mi vel ipsum mollis aliquam eu eget augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br>
-            <bR> Aliquam vel purus sagittis, eleifend ante quis, tempus lectus. Vivamus maximus nibh lectus, sed gravida sapien imperdiet in. Curabitur non purus rutrum, iaculis mauris ac, placerat turpis. Donec vel semper enim, ut ultrices sem.
-            <br>
-            <br> Fusce rutrum, justo id porta malesuada, purus erat gravida metus, sit amet viverra turpis lacus nec mi. Aliquam et mi vel ipsum mollis aliquam eu eget augue.
         </div>
-    </div>
+        
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title indigo-text">SharePoint RAG Agent</span>
+                        <p>Multi-agent system connecting enterprise SharePoint data to LLM reasoning with RAG.</p>
+                        <div class="chip">Azure Foundry</div>
+                        <div class="chip">RAG</div>
+                        <div class="chip">Python</div>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/vrajakishore" target="_blank" class="indigo-text">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title indigo-text">Voice-Live Agent Platform</span>
+                        <p>Real-time voice interaction system with agentic AI orchestration and multi-modal reasoning.</p>
+                        <div class="chip">WebRTC</div>
+                        <div class="chip">Agent Framework</div>
+                        <div class="chip">Real-time</div>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/vrajakishore" target="_blank" class="indigo-text">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title indigo-text">Azure Infrastructure Templates</span>
+                        <p>Production-grade Bicep and Terraform templates with security, networking, and HA/DR patterns.</p>
+                        <div class="chip">Bicep</div>
+                        <div class="chip">Terraform</div>
+                        <div class="chip">Azure</div>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/vrajakishore" target="_blank" class="indigo-text">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title indigo-text">Foundry Enablement Kit</span>
+                        <p>Comprehensive training materials and workshops for enterprise AI agents with Azure Foundry.</p>
+                        <div class="chip">Training</div>
+                        <div class="chip">Azure Foundry</div>
+                        <div class="chip">Documentation</div>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/vrajakishore" target="_blank" class="indigo-text">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Writing Section -->
+    <section id="writing" class="section scrollspy grey lighten-5">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="header center indigo-text">Technical Writing</h2>
+                <div class="divider"></div>
+                <p class="center">Read in-depth articles on AI, cloud architecture, and data systems:</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <div class="collection">
+                    <a href="https://medium.com/@vrajakishore" target="_blank" class="collection-item">
+                        <span class="badge indigo">Medium</span>
+                        Building Enterprise AI Agents: From Prototype to Production
+                    </a>
+                    <a href="https://medium.com/@vrajakishore" target="_blank" class="collection-item">
+                        <span class="badge indigo">Medium</span>
+                        SharePoint + RAG: Grounding AI with Enterprise Knowledge
+                    </a>
+                    <a href="https://medium.com/@vrajakishore" target="_blank" class="collection-item">
+                        <span class="badge indigo">Medium</span>
+                        Azure Infrastructure Patterns for Scale
+                    </a>
+                    <a href="https://medium.com/@vrajakishore" target="_blank" class="collection-item">
+                        <span class="badge indigo">Medium</span>
+                        Real-Time Data Integration with Kafka & CDC
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-
+    <!-- Connect Section -->
+    <section id="connect" class="section scrollspy">
+        <div class="row">
+            <div class="col s12 m6 offset-m3">
+                <h2 class="header center indigo-text">Let's Connect</h2>
+                <div class="divider"></div>
+                <p class="center">Find me on your platform of choice:</p>
+                
+                <div class="center">
+                    <a href="https://github.com/vrajakishore" target="_blank" class="btn-floating btn-large indigo waves-effect waves-light" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vrajakishore" target="_blank" class="btn-floating btn-large indigo waves-effect waves-light" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://medium.com/@vrajakishore" target="_blank" class="btn-floating btn-large indigo waves-effect waves-light" title="Medium">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                    <a href="mailto:vrajakishore@github.com" class="btn-floating btn-large indigo waves-effect waves-light" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
     <div class="row">
         <h1><br>-advantages-<br></h1>
