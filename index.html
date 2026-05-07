@@ -2,138 +2,297 @@
 layout: minimal
 ---
 
-<!-- Hero Section -->
-<div class="hero-section">
-    <div class="container">
+<!-- Hero -->
+<section class="hero-section">
+    <div class="hero-grid">
         <div class="hero-content">
-            <h1>Vraja Kishore</h1>
-            <h2>Enterprise AI Solutions Engineer</h2>
-            <p>Building production-grade AI agents, cloud infrastructure, and data systems that scale</p>
+            <div class="badge">
+                <span class="dot"></span>
+                Available for opportunities
+            </div>
+            <h1>Building intelligent<br>systems at <span style="background: var(--gradient-1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">cloud scale.</span></h1>
+            <p class="subtitle">Hi, I'm <span>Vraja Kishore</span> — Senior AI Solutions Engineer.</p>
+            <p class="description">15+ years architecting production-grade AI agents, cloud infrastructure, and data platforms. Currently building agentic systems with Azure Foundry, RAG, and modern enterprise patterns.</p>
             <div class="hero-buttons">
-                <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Learn More</button>
-                <a href="https://github.com/vrajakishore" target="_blank" class="btn btn-outline">GitHub</a>
+                <a href="#projects" class="btn btn-primary">
+                    Explore Work
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="https://github.com/vrajakishore" target="_blank" class="btn btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    GitHub
+                </a>
             </div>
         </div>
-    </div>
-</div>
-
-<!-- About Section -->
-<section id="about" class="section">
-    <div class="container">
-        <div class="section-header">
-            <h2>About Me</h2>
-            <p>15+ years building at the intersection of data, cloud, and AI</p>
-        </div>
-        <div style="max-width: 800px; margin: 0 auto;">
-            <p>I build <strong>production-grade AI systems at scale</strong>. My expertise spans enterprise AI agents, cloud infrastructure, and data platforms that power real-world applications.</p>
-            <p><strong>Background</strong>: Oracle database engineering, HA/DR, streaming architectures, multi-cloud infrastructure. Today, I focus on agentic AI, RAG systems, and enterprise integration patterns.</p>
-            <p style="margin-top: 40px; padding: 30px; background: rgba(63, 81, 181, 0.05); border-left: 4px solid var(--primary); border-radius: 4px; font-style: italic; color: var(--text-dark);">
-                "The best architecture is the one your team understands and can operate."
-            </p>
+        <div class="hero-visual">
+            <div class="code-card">
+                <div class="code-header">
+                    <span class="code-dot red"></span>
+                    <span class="code-dot yellow"></span>
+                    <span class="code-dot green"></span>
+                    <span class="code-title">vraja.profile.ts</span>
+                </div>
+                <div class="code-content">
+                    <div class="code-line"><span class="code-comment">// Engineer profile</span></div>
+                    <div class="code-line"><span class="code-key">const</span> <span class="code-var">vraja</span> = {</div>
+                    <div class="code-line">&nbsp;&nbsp;<span class="code-fn">role</span>: <span class="code-string">'AI Solutions Engineer'</span>,</div>
+                    <div class="code-line">&nbsp;&nbsp;<span class="code-fn">stack</span>: [<span class="code-string">'Azure'</span>, <span class="code-string">'Python'</span>, <span class="code-string">'AI'</span>],</div>
+                    <div class="code-line">&nbsp;&nbsp;<span class="code-fn">focus</span>: <span class="code-string">'Agentic AI + RAG'</span>,</div>
+                    <div class="code-line">&nbsp;&nbsp;<span class="code-fn">experience</span>: <span class="code-num">15</span>,</div>
+                    <div class="code-line">&nbsp;&nbsp;<span class="code-fn">shipping</span>: <span class="code-key">true</span>,</div>
+                    <div class="code-line">};</div>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-value">15+</div>
+                    <div class="stat-label">Years</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">50+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">3</div>
+                    <div class="stat-label">Clouds</div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Expertise Section -->
+<!-- About -->
+<section id="about" class="section">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-text">
+                <div class="section-label">About Me</div>
+                <h2 style="margin-bottom: 1.5rem;">Engineering AI systems<br>that actually ship.</h2>
+                <p>I work at the intersection of <strong>AI, cloud, and data</strong> — designing systems that move from prototype to production without losing reliability along the way.</p>
+                <p>My background spans Oracle database engineering, HA/DR, real-time streaming, multi-cloud infrastructure, and applied AI for enterprise workflows. I solve hard problems end to end: from infra to retrieval to agent experiences.</p>
+                <div class="quote-block">
+                    "The best architecture is the one your team understands and can operate."
+                </div>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">15+</div>
+                    <div class="metric-label">Years Engineering</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">3</div>
+                    <div class="metric-label">Cloud Platforms</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">50+</div>
+                    <div class="metric-label">Production Systems</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">∞</div>
+                    <div class="metric-label">Always Learning</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Expertise -->
 <section id="expertise" class="section">
     <div class="container">
         <div class="section-header">
-            <h2>Expertise</h2>
-            <p>What I specialize in</p>
+            <div class="section-label">Expertise</div>
+            <h2>What I build with</h2>
+            <p>Three pillars that drive every system I architect.</p>
         </div>
         <div class="card-grid">
             <div class="card">
-                <h3>🤖 AI & Agents</h3>
-                <p>Multi-agent workflows, tool orchestration, and reasoning patterns. RAG systems, semantic search, knowledge indexing. Azure Foundry, LLM integration, and cost optimization.</p>
+                <div class="card-icon">🤖</div>
+                <h3>AI & Agents</h3>
+                <p>Multi-agent workflows, tool orchestration, and reasoning patterns. RAG systems, semantic search, and Azure Foundry integrations.</p>
+                <div>
+                    <span class="chip">Foundry</span>
+                    <span class="chip">RAG</span>
+                    <span class="chip">Agents</span>
+                </div>
             </div>
             <div class="card">
-                <h3>☁️ Cloud & Infra</h3>
-                <p>Azure (primary), AWS, OCI. Kubernetes & container orchestration. Infrastructure as Code (Bicep, Terraform). Networking, security, and HA/DR patterns at scale.</p>
+                <div class="card-icon">☁️</div>
+                <h3>Cloud & Infra</h3>
+                <p>Azure (primary), AWS, OCI. Kubernetes, IaC with Bicep & Terraform, networking, security, and HA/DR patterns at enterprise scale.</p>
+                <div>
+                    <span class="chip">Azure</span>
+                    <span class="chip">Bicep</span>
+                    <span class="chip">AKS</span>
+                </div>
             </div>
             <div class="card">
-                <h3>📊 Data & Integration</h3>
-                <p>Oracle databases, event streaming (Kafka), CDC patterns. Real-time data integration. Vector databases and semantic search. Streaming architectures and ETL/ELT.</p>
+                <div class="card-icon">📊</div>
+                <h3>Data & Streaming</h3>
+                <p>Oracle databases, Kafka & CDC pipelines, real-time integration, vector databases, and search architectures.</p>
+                <div>
+                    <span class="chip">Oracle</span>
+                    <span class="chip">Kafka</span>
+                    <span class="chip">CDC</span>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Projects Section -->
+<!-- Projects -->
 <section id="projects" class="section">
     <div class="container">
         <div class="section-header">
-            <h2>Featured Projects</h2>
-            <p>Real implementations and reference architectures</p>
+            <div class="section-label">Featured Work</div>
+            <h2>Projects shipping in production</h2>
+            <p>Selected implementations that combine AI, cloud, and data engineering.</p>
         </div>
         <div class="card-grid">
             <div class="card">
+                <div class="card-icon">🔍</div>
                 <h3>SharePoint RAG Agent</h3>
-                <p>Multi-agent system connecting enterprise SharePoint data to LLM reasoning with retrieval-augmented generation.</p>
+                <p>Multi-agent system grounding LLM reasoning in enterprise SharePoint knowledge with semantic retrieval.</p>
                 <div>
-                    <span class="chip">Azure Foundry</span>
+                    <span class="chip">Foundry</span>
                     <span class="chip">RAG</span>
                     <span class="chip">Python</span>
                 </div>
             </div>
             <div class="card">
-                <h3>Voice-Live Agent Platform</h3>
-                <p>Real-time voice interaction system with agentic AI orchestration and multi-modal reasoning for conversational experiences.</p>
+                <div class="card-icon">🎙️</div>
+                <h3>Voice-Live Agent</h3>
+                <p>Real-time voice AI platform with WebRTC, agentic orchestration, and multi-modal reasoning for live conversations.</p>
                 <div>
                     <span class="chip">WebRTC</span>
-                    <span class="chip">Agent Framework</span>
                     <span class="chip">Real-time</span>
+                    <span class="chip">Voice</span>
                 </div>
             </div>
             <div class="card">
-                <h3>Azure Infrastructure Templates</h3>
-                <p>Production-grade Bicep and Terraform templates with security, networking, and HA/DR patterns for enterprise scale.</p>
+                <div class="card-icon">🏗️</div>
+                <h3>Azure IaC Templates</h3>
+                <p>Production-grade Bicep & Terraform templates with security, networking, and HA/DR patterns for enterprise.</p>
                 <div>
                     <span class="chip">Bicep</span>
                     <span class="chip">Terraform</span>
                     <span class="chip">Azure</span>
                 </div>
             </div>
+            <div class="card">
+                <div class="card-icon">📚</div>
+                <h3>Foundry Enablement Kit</h3>
+                <p>Workshop materials, learner worksheets, and instructor guides for building enterprise AI agents.</p>
+                <div>
+                    <span class="chip">Training</span>
+                    <span class="chip">Foundry</span>
+                    <span class="chip">Docs</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔄</div>
+                <h3>Oracle CDC Pipelines</h3>
+                <p>Event-driven streaming architectures bridging Oracle databases to cloud-native data platforms.</p>
+                <div>
+                    <span class="chip">Oracle</span>
+                    <span class="chip">Kafka</span>
+                    <span class="chip">CDC</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">🛡️</div>
+                <h3>HA/DR Playbooks</h3>
+                <p>Multi-region disaster recovery patterns and Data Guard automation for mission-critical workloads.</p>
+                <div>
+                    <span class="chip">Data Guard</span>
+                    <span class="chip">DR</span>
+                    <span class="chip">Oracle</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span class="tech-pill">Azure</span>
+            <span class="tech-pill">AWS</span>
+            <span class="tech-pill">OCI</span>
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">SQL</span>
+            <span class="tech-pill">PL/SQL</span>
+            <span class="tech-pill">Kubernetes</span>
+            <span class="tech-pill">Docker</span>
+            <span class="tech-pill">Terraform</span>
+            <span class="tech-pill">Bicep</span>
+            <span class="tech-pill">Kafka</span>
+            <span class="tech-pill">Oracle</span>
+            <span class="tech-pill">FastAPI</span>
+            <span class="tech-pill">Foundry</span>
         </div>
     </div>
 </section>
 
-<!-- Writing Section -->
+<!-- Writing -->
 <section id="writing" class="section">
     <div class="container">
         <div class="section-header">
-            <h2>Technical Writing</h2>
-            <p>In-depth articles on AI, cloud, and data systems</p>
+            <div class="section-label">Writing</div>
+            <h2>Technical articles &amp; insights</h2>
+            <p>Implementation learnings on AI, cloud architecture, and data systems.</p>
         </div>
-        <div style="max-width: 800px; margin: 0 auto;">
-            <div class="card" style="margin-bottom: 20px;">
-                <h3 style="margin-bottom: 10px;">📝 Articles on Medium</h3>
-                <p>Read my technical writing on enterprise AI agents, cloud architecture, RAG systems, and data integration patterns.</p>
-                <a href="https://medium.com/@vrajakishore" target="_blank" style="display: inline-block; margin-top: 15px; padding: 10px 20px; background: var(--primary); color: white; border-radius: 4px; border: none;">Visit Medium →</a>
-            </div>
+        <div class="article-list">
+            <a href="https://medium.com/@vrajakishore" target="_blank" class="article-card">
+                <div class="article-icon">M</div>
+                <div class="article-content">
+                    <div class="article-title">Building Enterprise AI Agents: From Prototype to Production</div>
+                    <div class="article-meta"><span>Medium</span><span>•</span><span>AI &amp; Agents</span></div>
+                </div>
+                <span class="article-arrow">→</span>
+            </a>
+            <a href="https://medium.com/@vrajakishore" target="_blank" class="article-card">
+                <div class="article-icon">M</div>
+                <div class="article-content">
+                    <div class="article-title">SharePoint + RAG: Grounding AI with Enterprise Knowledge</div>
+                    <div class="article-meta"><span>Medium</span><span>•</span><span>RAG &amp; Search</span></div>
+                </div>
+                <span class="article-arrow">→</span>
+            </a>
+            <a href="https://medium.com/@vrajakishore" target="_blank" class="article-card">
+                <div class="article-icon">M</div>
+                <div class="article-content">
+                    <div class="article-title">Azure Infrastructure Patterns for Scale</div>
+                    <div class="article-meta"><span>Medium</span><span>•</span><span>Cloud Architecture</span></div>
+                </div>
+                <span class="article-arrow">→</span>
+            </a>
+            <a href="https://medium.com/@vrajakishore" target="_blank" class="article-card">
+                <div class="article-icon">M</div>
+                <div class="article-content">
+                    <div class="article-title">Real-Time Data Integration with Kafka &amp; CDC</div>
+                    <div class="article-meta"><span>Medium</span><span>•</span><span>Data Engineering</span></div>
+                </div>
+                <span class="article-arrow">→</span>
+            </a>
         </div>
     </div>
 </section>
 
-<!-- Connect Section -->
+<!-- Connect -->
 <section id="connect" class="section">
     <div class="container">
-        <div class="section-header">
-            <h2>Let's Connect</h2>
-            <p>Find me on your platform of choice</p>
-        </div>
-        <div style="text-align: center;">
+        <div class="cta-card">
+            <div class="section-label" style="margin-bottom: 1.25rem;">Let's Connect</div>
+            <h2>Building something interesting?</h2>
+            <p>Always open to conversations about AI agents, cloud architecture, and engineering at scale.</p>
             <div class="social-links">
                 <a href="https://github.com/vrajakishore" target="_blank" class="social-btn" title="GitHub">
-                    <i class="fab fa-github"></i>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
                 </a>
                 <a href="https://www.linkedin.com/in/vrajakishore" target="_blank" class="social-btn" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                 </a>
                 <a href="https://medium.com/@vrajakishore" target="_blank" class="social-btn" title="Medium">
-                    <i class="fab fa-medium"></i>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
                 </a>
                 <a href="mailto:vrajakishore@github.com" class="social-btn" title="Email">
-                    <i class="fas fa-envelope"></i>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                 </a>
             </div>
         </div>

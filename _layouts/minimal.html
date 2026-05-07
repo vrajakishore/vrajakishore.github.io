@@ -3,79 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} • {{ site.title }}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    
-    <!-- Modern CSS Framework -->
+
     <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
-    
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="nav-wrapper">
-            <a href="{{ site.baseurl }}/" class="brand-logo">{{ site.title }}</a>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#expertise">Expertise</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#writing">Writing</a></li>
-                <li><a href="https://github.com/vrajakishore" target="_blank">GitHub</a></li>
-            </ul>
-        </div>
-    </nav>
+    {% include header.html %}
 
-    <!-- Main Content -->
-    {{ content }}
+    <main>
+        {{ content }}
+    </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>{{ site.title }}</h4>
-                <p>Building production-grade AI systems, cloud infrastructure, and data platforms at scale.</p>
-            </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#expertise">Expertise</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#writing">Writing</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li><a href="https://github.com/vrajakishore" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/vrajakishore" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://medium.com/@vrajakishore" target="_blank">Medium</a></li>
-                    <li><a href="mailto:vrajakishore@github.com">Email</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            © 2026 Vraja Kishore • <a href="https://github.com/vrajakishore/vrajakishore.github.io" target="_blank">View on GitHub</a>
-        </div>
-    </footer>
+    {% include footer.html %}
 
-    <!-- Smooth Scroll Script -->
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 const href = this.getAttribute('href');
                 if (href !== '#' && document.querySelector(href)) {
                     e.preventDefault();
-                    document.querySelector(href).scrollIntoView({
-                        behavior: 'smooth'
-                    });
+                    document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
                 }
             });
         });
