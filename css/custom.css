@@ -741,9 +741,8 @@ main {
 }
 
 .timeline-logo.confluent {
-    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%) !important;
+    background: linear-gradient(135deg, #1a3a52 0%, #2d5a7b 100%) !important;
     color: white !important;
-    font-size: 0.65rem !important;
 }
 
 .timeline-logo.oracle {
@@ -759,27 +758,14 @@ main {
 }
 
 .timeline-logo.capgemini {
-    background: linear-gradient(135deg, #FF6600 0%, #ffaa44 100%) !important;
+    background: linear-gradient(135deg, #0066cc 0%, #00b4e5 100%) !important;
     color: white !important;
-    font-size: 0.7rem !important;
-}
-
-.timeline-logo.confluent-badge {
-    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%) !important;
-    color: white !important;
-    font-size: 0.65rem !important;
 }
 
 .timeline-logo.tcs-badge {
     background: linear-gradient(135deg, #E31837 0%, #ff5555 100%) !important;
     color: white !important;
     font-size: 0.65rem !important;
-}
-
-.timeline-logo.capgemini-badge {
-    background: linear-gradient(135deg, #FF6600 0%, #ffaa44 100%) !important;
-    color: white !important;
-    font-size: 0.7rem !important;
 }
 
 .timeline-meta {
